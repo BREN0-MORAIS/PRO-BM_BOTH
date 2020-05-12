@@ -1,0 +1,387 @@
+
+/*____________________________________________________________________________________________________________________________________________
+                        _________     _________   _________                  _________                                
+                       |   ___   |   |   ___   | |   ___   |                |   ___   |         /\       /\              
+                       |  |___|  |   |  |___|  | |  |   |  |                |  |___|  |        /  \     /  \       
+                       |   ______|   |    _____| |  |   |  |  ===========   |        /        /    \   /    \      
+                       |  |          |      \    |  |   |  | |           |  |   ___   \      /      \ /      \       
+                       |  |          |   /\  \   |  |___|  |  ===========   |  |___|   |    /    / \    /\    \          
+                       |__|          |__/  \__\  |_________|                |__________|   /____/   \ /   \____\       
+_________________________________________________________________________________________________________________________________________________*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/*---------------------------------------------------------------------Borda-para-produtividade----------------------------------------------------------------------------------------*/
+.border{
+    border: 1px solid gray;
+    background-color: transparent;
+}
+/*---------------------------------------------------------------------Flutuações----------------------------------------------------------------------------------------*/
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+
+/*---------------------------------------------------------------------larguras-----------------------------------------------------------------------------------------*/
+
+.w100{
+    width: 100%;
+}
+.w50{
+    width: 50%;
+}
+
+.w33{
+    width: 33.3%;
+}
+/*--------------------------------------------------------------------------margin-top----------------------------------------------------------------------------------------*/
+.mgtop-10
+{
+    margin-top: 10%;
+}
+
+.mgtop-20
+{
+    margin-top: 20%;
+}
+
+.mgtop-30
+{
+    margin-top: 30%;
+}
+
+.mgtop-40
+{
+    margin-top: 40%;
+}
+
+.mgtop-50
+{
+    margin-top: 50%;
+}
+
+.mgtop-60
+{
+    margin-top: 60%;
+}
+
+.mgtop-70
+{
+    margin-top: 70%;
+}
+
+.mgtop-80
+{
+    margin-top: 80%;
+}
+
+.mgtop-90
+{
+    margin-top: 90%;
+}
+
+.mgtop-100
+{
+    margin-top: 100%;
+}
+
+/*---------------------------------------------------------------------------Posição----------------------------------------------------------------------------------------*/
+.po-relative{
+    position: relative;
+}
+
+.po-absolute{
+    position: relative;
+}
+
+.po-fixed{
+    position: relative;
+}
+
+.center-auto{
+    margin: auto;
+}
+
+/*---------------------------------------------------------------------input formulario-----------------------------------------------------------------------------*/
+
+.input-frm{
+    height: 8px;
+    width: 27%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    outline: none;
+}
+.input-frm:hover{
+    border: 1px solid #3496dc;
+}
+/*---------------------------------------------------------------------link-------------------------------------------------------------------------------------------------*/
+
+.link{
+    text-decoration: none;
+    color: #00009a;
+}
+/*---------------------------------------------------------------------Desabilitar-------------------------------------------------------------------------------------------------*/
+.desabled{
+display: none;
+}
+/*---------------------------------------------------------------------Botões-color-background-----------------------------------------------------------------------------*/
+.btn-red {
+    background-color: red;
+    width: 15%;
+    height: 36px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn-red:hover{
+    background-color: #b90202;
+}
+
+
+.btn-blue {
+    background-color: blue;
+    width: 15%;
+    height: 36px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn-blue:hover{
+    background-color: #00009a;
+}
+
+
+.btn-orange {
+    background-color: orange;
+    width: 15%;
+    height: 36px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn-orange:hover{
+    background-color: #a96e03;
+}
+
+
+.btn-yellow {
+    background-color: #e6e61d;
+    width: 15%;
+    height: 36px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn-yellow:hover{
+    background-color: #a2a202;
+}
+
+
+.btn-green {
+    background-color: #01e001;
+    width: 15%;
+    height: 36px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn-green:hover{
+    background-color: #07b707;
+}
+
+.btn-black {
+    background-color: black;
+    width: 15%;
+    height: 36px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+}
+.btn-black:hover{
+    background-color: #4e3939;
+}
+
+
+.btn-aqua {
+    background-color:#09e2e2;
+    width: 15%;
+    height: 36px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+}
+
+
+
+.btn-aqua:hover{
+    background-color: #00c7c7;
+}
+
+/*---------------------------------------------------------------------Botões-color-border-----------------------------------------------------------------------------*/
+.btn-border-red {
+    background-color: white;
+    width: 15%;
+    color: red;
+    height: 36px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid red;
+}
+
+.btn-border-red:hover{
+    background-color: red;
+    color: white;
+}
+
+.btn-border-blue {
+    background-color: white;
+    width: 15%;
+    color: blue;
+    height: 36px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid blue;
+}
+
+.btn-border-blue:hover{
+    background-color: blue;
+    color: white;
+}
+
+
+.btn-border-orange {
+    background-color: white;
+    width: 15%;
+    color: orange;
+    height: 36px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid orange;
+}
+
+.btn-border-orange:hover{
+    background-color: orange;
+    color: white;
+}
+
+.btn-border-green{
+    background-color: white;
+    width: 15%;
+    color: green;
+    height: 36px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid green;
+}
+
+.btn-border-green:hover{
+    background-color: green;
+    color: white;
+}
+
+.btn-border-yellow{
+    background-color: white;
+    width: 15%;
+    color: #e6e61d;
+    height: 36px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid #e6e61d;
+}
+
+.btn-border-yellow:hover{
+    background-color: #e6e61d;
+    color: white;
+}
+
+.btn-border-black{
+    background-color: white;
+    width: 15%;
+    color: black;
+    height: 36px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid black;
+}
+
+.btn-border-black:hover{
+    background-color: black;
+    color: white;
+}
+
+.btn-border-aqua{
+    background-color: white;
+    width: 15%;
+    color: #09e2e2;
+    height: 36px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid #09e2e2;
+}
+
+.btn-border-aqua:hover{
+    background-color: #09e2e2;
+    color: white;
+}
+
+
+/*estilo index*/
+
+.background-blue{
+    background-color: blue;
+    height: 50px;
+    padding: 10px;
+} 
+
+.background-blue h1 {
+    color: #070758;
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px 0px 10px 0px;
+    border: 2px solid #00f1f1;
+}
+
